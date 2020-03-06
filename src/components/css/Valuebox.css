@@ -1,0 +1,23 @@
+.valuebox {
+    display: flex;
+    font-size: 0;
+    border: solid 0.05rem #CCC;
+    border-radius: 0.2rem;
+}
+.valuebox span {
+    width: 1.2rem;
+    height: 1.2rem;
+    opacity: 0.65;
+}
+
+.valuebox span button {
+    width: 100%;
+    height: 100%;
+}
+
+.valuebox .buy-num {
+    text-align: center;
+    line-height: 1.2rem;
+    color: #000;
+    font-size: 0.6rem;
+}

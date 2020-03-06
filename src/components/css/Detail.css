@@ -1,0 +1,461 @@
+.Detail {
+    z-index: 666;
+}
+.Detail .header-l{
+    width: 1.95rem;
+    height: 1.95rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Detail .header-l a{
+    display: block;
+    text-align: center;
+    line-height: 1.35rem;
+    width: 1.35rem;
+    height: 1.35rem;
+    margin: 0.2775rem;
+    color: #ff5001;
+    font-size: 26px;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.75);
+    border: solid 0.05rem #EEE;
+    border-radius: 100%;
+}
+.Detail .goods-detail-top {
+    background-color: #FFF;
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.Detail .goods-detail-top .goods-detail-pic {
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    width: 16rem;
+    margin: 0 auto;
+
+}
+
+.Detail .goods-detail-cnt {
+    background: #F5F5F5;
+    z-index: 1;
+    margin-top: 16rem;
+}
+
+.Detail .goods-detail-cnt .goods-detail-name p {
+    padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+    background-color: #FFF;
+    border-top: solid 0.05rem #EEE;
+    font-size: 0.7rem;
+    line-height: 0.85rem;
+}
+
+.Detail .goods-detail-cnt .goods-detail-price {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 1;
+    padding: 0 0.5rem;
+    background-color: #FFF;
+}
+
+.Detail .goods-detail-cnt .goods-detail-price .price {
+    font-size: 0.55rem;
+    color: #ff5001;
+    line-height: 1rem;
+}
+
+.Detail .goods-detail-cnt .goods-detail-price .price em {
+    font-size: 1rem;
+}
+
+.Detail .goods-detail-cnt .goods-detail-price .sold {
+    font-size: 0.55rem;
+    line-height: 1rem;
+    height: 1rem;
+}
+
+.Detail .goods-detail-cnt .goods-detail-item {
+    height: 1.95rem;
+    padding: 0.5rem;
+    background: #FFF;
+    border-bottom: solid 0.05rem #EEE;
+    position: relative;
+}
+
+.Detail .goods-detail-cnt .goods-detail-item div {
+    width: 1.6rem;
+    height: 0.9rem;
+    font-size: 0.6rem;
+    color: #888;
+    line-height: 0.9rem;
+}
+
+.Detail .goods-detail-cnt .goods-detail-item .itme-name2 {
+    color: #000;
+}
+
+.Detail .goods-detail-cnt .goods-detail-item .itme-name3 {
+    color: #ff5001;
+    font-weight: 600;
+}
+
+.Detail .goods-detail-cnt .goods-detail-item .itme-name4 {
+    position: absolute;
+    top: 1.5rem;
+    left: 2rem;
+    width: 2.5rem;
+}
+
+.Detail .goods-detail-cnt .select {
+    height: 1.3rem;
+    padding: 0.5rem;
+    background: #FFF;
+    border-bottom: solid 0.05rem #EEE;
+}
+
+.Detail .goods-detail-cnt .select div {
+    display: inline-block;
+}
+
+.Detail .goods-detail-cnt .select .selected {
+    width: 1.6rem;
+    height: 0.9rem;
+    font-size: 0.6rem;
+    color: #888;
+    line-height: 0.9rem;
+}
+
+.Detail .goods-detail-cnt .select .choice {
+    height: 0.9rem;
+    margin: 0 0.3rem 0.3rem 0;
+    border: solid 0.05rem #CCC;
+    font-size: 0.55rem;
+    line-height: 0.9rem;
+    padding: 0 0.2rem;
+    color: #777;
+}
+
+.Detail .goods-detail-cnt .select .choice em {
+    color: #333;
+    margin-left: 0.2rem;
+}
+
+.Detail .goods-detail-cnt .goods-detail-comment {
+    background-color: #FFF;
+    padding: 0 0.5rem;
+    margin-top: 0.5rem;
+    border-top: solid #EEE 0.05rem;
+    border-bottom: solid #EEE 0.05rem;
+}
+
+.Detail .goods-detail-cnt .goods-detail-comment .title {
+    height: 0.9rem;
+    padding: 0.5rem 0;
+    font-size: 0.6rem;
+    line-height: 0.9rem;
+    color: #888;
+}
+
+.Detail .goods-detail-cnt .goods-detail-comment .title .good-reputation {
+    margin-left: 1rem;
+    color: #ff5001;
+}
+
+.Detail .goods-detail-cnt .goods-detail-comment .title .good-reputation em {
+    font-size: 0.6rem;
+    font-weight: 600;
+    margin-left: 0.2rem;
+}
+
+.Detail .goods-detail-cnt .rightoutlined {
+    width: 0.8rem;
+    height: 0.9rem;
+    color: #888;
+    font-size: 22px;
+    margin-left: 1rem;
+}
+
+.Detail .goods-detail-cnt .goods-detail-store {
+    padding: 0 0.5rem;
+    margin: 0.5rem 0;
+    background: #FFF;
+    border: solid #EEE;
+    border-width: 0.05rem;
+    height: 3.3rem;
+}
+
+.Detail .goods-detail-cnt .goods-detail-store .store-name {
+    height: 0.9rem;
+    padding: 0.5rem 0 0.25rem 0;
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+    color: #333;
+}
+
+.Detail .goods-detail-cnt .goods-detail-store .store-name em {
+    margin-left: 0.2rem;
+}
+
+.Detail .goods-detail-cnt .goods-detail-store .store-rate {
+    height: 0.7rem;
+    padding: 0.4rem 0 0.5rem 0;
+    display: flex;
+    justify-content: flex-start;
+    border-top: solid 0.05rem #EEE;
+}
+
+.Detail .goods-detail-cnt .goods-detail-store .store-rate div {
+    width: 33.33%;
+    height: 0.7rem;
+    font-size: 0.55rem;
+    line-height: 0.7rem;
+    color: #888;
+    display: inline-block;
+}
+
+.Detail .goods-detail-cnt .goods-detail-store .store-rate div em {
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-left: 0.15rem;
+}
+
+.Detail .goods-detail-cnt .goods-detail-recom {
+    background: #FFF;
+    padding: 0 0.5rem;
+    margin: 0.5rem 0;
+    border: 0.05rem solid #EEE;
+}
+
+.Detail .goods-detail-cnt .goods-detail-recom h4 {
+    height: 0.9rem;
+    padding: 0.4rem 0;
+    font-size: 0.6rem;
+    color: #888;
+    line-height: 0.9rem;
+}
+
+.Detail .goods-detail-cnt .goods-detail-recom ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Detail .goods-detail-cnt .goods-detail-recom ul li {
+    width: 22%;
+    margin-bottom: 0.4rem;
+}
+
+.Detail .goods-detail-cnt .goods-detail-recom ul li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center
+}
+
+.Detail .goods-detail-cnt .goods-detail-recom ul li .pic {
+    width: 3.225rem;
+    height: 3.225rem;
+}
+
+.Detail .goods-detail-cnt .goods-detail-recom ul li a p {
+    overflow: hidden;
+    height: 1.2rem;
+    font-size: 0.5rem;
+    line-height: 0.6rem;
+    color: #777;
+    margin: 0.2rem 0;
+}
+
+.Detail .goods-detail-cnt .goods-detail-recom ul li a span {
+    font-size: 0.45rem;
+    color: #333;
+}
+
+.Detail .goods-detail-cnt .goods-detail-recom ul li a em {
+    font-size: 0.55rem;
+}
+
+.Detail .goods-detail-bottom {
+    text-align: center;
+    width: 100%;
+    height: 1rem;
+    margin: 0 auto 2.6rem;
+    font-size: 0.6rem;
+    line-height: 1rem;
+    color: #999;
+
+}
+
+.Detail .goods-detail-foot {
+    width: 100%;
+    max-width: 640px;
+    background: rgba(245, 245, 245, 0.95);
+    height: 2rem;
+    position: fixed;
+    left: auto;
+    bottom: 0;
+    z-index: 666;
+}
+
+.Detail .goods-detail-foot .otreh-handle {
+    width: 35%;
+}
+
+.Detail .goods-detail-foot .otreh-handle a {
+    z-index: auto;
+    display: inline-block;
+    height: 1.95rem;
+    text-align: center;
+    color: #333;
+    border-top: solid 0.05rem #DDD;
+}
+
+.Detail .goods-detail-foot .otreh-handle .kefu {
+    width: 44%;
+}
+
+.Detail .goods-detail-foot .otreh-handle .cart {
+    border-left: solid 0.05rem #DDD;
+    width: 55%;
+}
+
+.Detail .goods-detail-foot .otreh-handle a p {
+    height: 0.8rem;
+    font-size: 0.55rem;
+    line-height: 0.8rem;
+}
+
+.Detail .goods-detail-foot .buy-handle {
+    width: 65%;
+}
+
+.Detail .goods-detail-foot .buy-handle a {
+    display: block;
+    height: 2rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: #FFF;
+    text-align: center;
+}
+
+.Detail .goods-detail-foot .buy-handle .buy-now {
+    background-color: #ff5001;
+    width: 45%;
+}
+
+.Detail .goods-detail-foot .buy-handle .add-cart {
+    width: 55%;
+    background-color: #FB6E52;
+}
+
+.Detail .mask {
+    position: fixed;
+    bottom: 2rem;
+    left: auto;
+    width: 100%;
+    max-width: 640px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 999;
+}
+
+.Detail .mask .nctouch-bottom-mask-block {
+    width: 100%;
+    min-height: 12rem;
+    max-width: 640px;
+    position: fixed;
+    bottom: 2rem;
+    left: auto;
+    background: #FFF;
+}
+
+.Detail .mask .nctouch-bottom-mask-block .nctouch-bottom-mask-top {
+    min-height: 3rem;
+    padding: 0.5rem;
+    border-bottom: solid 0.05rem #EEE;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.Detail .mask .nctouch-bottom-mask-block .nctouch-bottom-mask-top .goods-pic {
+    width: 3rem;
+    height: 3rem;
+    background: #FFF;
+}
+
+.Detail .mask .nctouch-bottom-mask-block .nctouch-bottom-mask-top .mask-top-right {
+    width: 12.055rem;
+}
+
+.Detail .mask .nctouch-bottom-mask-block .nctouch-bottom-mask-top .mask-top-right p {
+    font-size: 0.6rem;
+    line-height: 0.75rem;
+    margin: 0.2rem 0.6rem 0.4rem 0;
+}
+
+.Detail .mask .nctouch-bottom-mask-block .nctouch-bottom-mask-top .mask-top-right .goods-price {
+    height: 1rem;
+    font-size: 0.55rem;
+    color: #DB4453;
+    font-weight: 600;
+    line-height: 1rem;
+}
+
+.Detail .mask .nctouch-bottom-mask-block .nctouch-bottom-mask-top .mask-top-right .goods-price em {
+    font-size: 0.66rem;
+}
+
+.Detail .mask .nctouch-bottom-mask-block .goods-options-stock {
+    padding: 0.25rem 0.5rem;
+}
+
+.Detail .mask .nctouch-bottom-mask-block .goods-options-stock .spec dt {
+    display: block;
+    height: 0.9rem;
+    padding: 0.1rem 0;
+    font-size: 0.6rem;
+    color: #888;
+    line-height: 0.9rem;
+}
+
+.Detail .mask .nctouch-bottom-mask-block .goods-options-stock .spec dd {
+    display: inline-block;
+    height: 0.9rem;
+    padding: 0.25rem 0.5rem;
+    margin-left: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.55rem;
+    color: #888;
+    line-height: 0.9rem;
+    background: #FFF;
+    border: solid 0.05rem #BBB;
+    border-radius: 0.15rem;
+}
+
+.Detail .mask .nctouch-bottom-mask-block .goods-options-stock .spec .current {
+    padding: 0.28rem 0.53rem;
+    color: #FFF;
+    background: #ff5001;
+    border: none;
+}
+
+.Detail .mask .nctouch-bottom-mask-block .goods-option-value {
+    height: 1.2rem;
+    padding: 0.5rem;
+    line-height: 1.2rem;
+    font-size: 0.6rem;
+    color: #999;
+    border-top: solid 0.05rem #EEE;
+}
+.Detail .mask .nctouch-bottom-mask-block .goods-option-value .valuebox{
+    float: right;
+}
+
+
